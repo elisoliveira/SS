@@ -1,0 +1,6 @@
+SELECT CAN.NAME AS NAME,
+   ( ( (SCO.MATH * 2) + ( SCO.SPECIFIC * 3 ) + ( SCO.PROJECT_PLAN * 5 ))/10) AS AVG
+FROM CANDIDATE CAN JOIN SCORE SCO ON CAN.ID = SCO.CANDIDATE_ID 
+ORDER BY AVG DESC;
+
+--https://pt.stackoverflow.com/questions/341267/erro-de-compila%C3%A7%C3%A3o-postgresql-erro/346159#346159
