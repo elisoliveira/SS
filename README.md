@@ -1,4 +1,4 @@
 # SS
-Some solutions for Stack Overflow.
+Algumas soluções para o Stack Overflow.
 
-Profile: https://pt.stackoverflow.com/users/22803/elisiany-oliveira
+Perfil BR: https://pt.stackoverflow.com/users/22803/elisiany-oliveira
